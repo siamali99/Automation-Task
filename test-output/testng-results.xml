@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-19T10:41:54 BDT" name="Default suite" finished-at="2024-09-19T10:42:11 BDT" duration-ms="16203">
+    <groups>
+    </groups>
+    <test started-at="2024-09-19T10:41:54 BDT" name="Default test" finished-at="2024-09-19T10:42:11 BDT" duration-ms="16203">
+      <class name="Assignment.AutomationTask.registration">
+        <test-method is-config="true" signature="config()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:41:54 BDT" name="config" finished-at="2024-09-19T10:41:56 BDT" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:41:56 BDT" name="beforeMethod" finished-at="2024-09-19T10:41:58 BDT" duration-ms="2429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:41:58 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-09-19T10:42:01 BDT" duration-ms="2261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[879654]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[×
+Error: The email address is badly formatted.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegistration -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:01 BDT" name="beforeMethod" finished-at="2024-09-19T10:42:02 BDT" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:02 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-09-19T10:42:04 BDT" duration-ms="2260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testads]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[879654]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[×
+Error: The email address is badly formatted.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegistration -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:04 BDT" name="beforeMethod" finished-at="2024-09-19T10:42:05 BDT" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:05 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-09-19T10:42:07 BDT" duration-ms="2268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testads@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[×
+Error: The password must be 6 characters long or more.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegistration -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:07 BDT" name="beforeMethod" finished-at="2024-09-19T10:42:08 BDT" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:08 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-09-19T10:42:10 BDT" duration-ms="2296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testads@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[×
+Error: Password should be at least 6 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegistration -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:10 BDT" name="close" finished-at="2024-09-19T10:42:11 BDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Assignment.AutomationTask.registration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

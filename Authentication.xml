@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Authentication suite">
+  <test name="Registration Test">
+    <classes>
+      <class name="Assignment.AutomationTask.registration"/>
+    </classes>
+  </test> <!-- Registration Test -->
+
+  <test name="Login Test">
+    <classes>
+      <class name="Assignment.AutomationTask.login"/>
+    </classes>
+  </test> <!-- Login Test -->
+</suite> <!-- Suite -->
