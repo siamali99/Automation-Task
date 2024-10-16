@@ -11,6 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import Assignment.AutomationTask.pageLocators.registrationPage;
+import Assignment.TestUtils.configDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class registration extends configDriver{
@@ -56,5 +57,6 @@ public class registration extends configDriver{
             {"Siam", "testads@gmail.com", "123", "×\n"+ "Error: Password should be at least 6 characters"}     
         };
     }
+
 	
 }

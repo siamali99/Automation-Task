@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-19T10:41:54 BDT" name="Default suite" finished-at="2024-09-19T10:42:11 BDT" duration-ms="16203">
+  <suite started-at="2024-10-16T09:13:53 BDT" name="Authentication suite" finished-at="2024-10-16T09:14:17 BDT" duration-ms="23719">
     <groups>
     </groups>
-    <test started-at="2024-09-19T10:41:54 BDT" name="Default test" finished-at="2024-09-19T10:42:11 BDT" duration-ms="16203">
+    <test started-at="2024-10-16T09:13:53 BDT" name="Registration Test" finished-at="2024-10-16T09:14:12 BDT" duration-ms="18342">
       <class name="Assignment.AutomationTask.registration">
-        <test-method is-config="true" signature="config()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:41:54 BDT" name="config" finished-at="2024-09-19T10:41:56 BDT" duration-ms="1563" status="PASS">
+        <test-method is-config="true" signature="config()[pri:0, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:13:53 BDT" name="config" finished-at="2024-10-16T09:13:55 BDT" duration-ms="1138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:41:56 BDT" name="beforeMethod" finished-at="2024-09-19T10:41:58 BDT" duration-ms="2429" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:13:55 BDT" name="beforeMethod" finished-at="2024-10-16T09:13:57 BDT" duration-ms="2226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:41:58 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-09-19T10:42:01 BDT" duration-ms="2261" status="PASS">
+        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:13:57 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-10-16T09:13:59 BDT" duration-ms="2268" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,11 +42,11 @@ Error: The email address is badly formatted.]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidRegistration -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:01 BDT" name="beforeMethod" finished-at="2024-09-19T10:42:02 BDT" duration-ms="830" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:13:59 BDT" name="beforeMethod" finished-at="2024-10-16T09:14:00 BDT" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:02 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-09-19T10:42:04 BDT" duration-ms="2260" status="PASS">
+        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:14:00 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-10-16T09:14:02 BDT" duration-ms="2265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,11 +73,11 @@ Error: The email address is badly formatted.]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidRegistration -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:04 BDT" name="beforeMethod" finished-at="2024-09-19T10:42:05 BDT" duration-ms="699" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:14:02 BDT" name="beforeMethod" finished-at="2024-10-16T09:14:03 BDT" duration-ms="749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:05 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-09-19T10:42:07 BDT" duration-ms="2268" status="PASS">
+        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:14:03 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-10-16T09:14:05 BDT" duration-ms="2273" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,11 +104,11 @@ Error: The password must be 6 characters long or more.]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidRegistration -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:07 BDT" name="beforeMethod" finished-at="2024-09-19T10:42:08 BDT" duration-ms="1388" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:14:05 BDT" name="beforeMethod" finished-at="2024-10-16T09:14:06 BDT" duration-ms="903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:08 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-09-19T10:42:10 BDT" duration-ms="2296" status="PASS">
+        <test-method signature="invalidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:14:06 BDT" name="invalidRegistration" description="Test signup with sample invalid registration data" data-provider="invalidRegistrationData" finished-at="2024-10-16T09:14:08 BDT" duration-ms="2242" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,11 +135,80 @@ Error: Password should be at least 6 characters]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidRegistration -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Assignment.AutomationTask.registration@2d3379b4]" started-at="2024-09-19T10:42:10 BDT" name="close" finished-at="2024-09-19T10:42:11 BDT" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:14:08 BDT" name="beforeMethod" finished-at="2024-10-16T09:14:09 BDT" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validRegistration()[pri:2, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:14:09 BDT" name="validRegistration" description="Test signup with sample valid registration data" finished-at="2024-10-16T09:14:12 BDT" duration-ms="2288" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[URL didn't match after signup expected [https://letcode.in/] but found [https://letcode.in/signup]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: URL didn't match after signup expected [https://letcode.in/] but found [https://letcode.in/signup]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at Assignment.AutomationTask.registration.validRegistration(registration.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistration -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Assignment.AutomationTask.registration@3b35a229]" started-at="2024-10-16T09:14:12 BDT" name="close" finished-at="2024-10-16T09:14:12 BDT" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Assignment.AutomationTask.registration -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Registration Test -->
+    <test started-at="2024-10-16T09:14:12 BDT" name="Login Test" finished-at="2024-10-16T09:14:17 BDT" duration-ms="5208">
+      <class name="Assignment.AutomationTask.login">
+        <test-method is-config="true" signature="config()[pri:0, instance:Assignment.AutomationTask.login@22f59fa]" started-at="2024-10-16T09:14:12 BDT" name="config" finished-at="2024-10-16T09:14:13 BDT" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Assignment.AutomationTask.login@22f59fa]" started-at="2024-10-16T09:14:13 BDT" name="beforeMethod" finished-at="2024-10-16T09:14:15 BDT" duration-ms="2239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testValidLogin()[pri:1, instance:Assignment.AutomationTask.login@22f59fa]" started-at="2024-10-16T09:14:15 BDT" name="testValidLogin" description="Login with valid credentials" finished-at="2024-10-16T09:14:17 BDT" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Assignment.AutomationTask.login@22f59fa]" started-at="2024-10-16T09:14:17 BDT" name="close" finished-at="2024-10-16T09:14:17 BDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Assignment.AutomationTask.login -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Authentication suite -->
 </testng-results>

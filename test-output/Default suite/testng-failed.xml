@@ -5,10 +5,10 @@
     <classes>
       <class name="Assignment.AutomationTask.login">
         <methods>
-          <include name="close"/>
+          <include name="testValidLogin"/>
           <include name="config"/>
+          <include name="close"/>
           <include name="beforeMethod"/>
-          <include name="login"/>
         </methods>
       </class> <!-- Assignment.AutomationTask.login -->
     </classes>

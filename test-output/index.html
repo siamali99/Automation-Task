@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Authentication_suite" class="navigator-link">
+              <span class="suite-name border-failed">Authentication suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\alhas\AppData\Local\Temp\testng-eclipse--2089318890\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Authentication_suite" class="navigator-link ">
+                    <span>C:\Users\alhas\eclipse-workspace\AutomationTask\Authentication.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-Authentication_suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Authentication_suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Authentication_suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Authentication_suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Authentication_suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Authentication_suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,44 +92,63 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Authentication_suite" class="hide-methods failed suite-Authentication_suite"> (hide)</a> <!-- hide-methods failed suite-Authentication_suite -->
+                      <a href="#" panel-name="suite-Authentication_suite" class="show-methods failed suite-Authentication_suite"> (show)</a> <!-- show-methods failed suite-Authentication_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Authentication_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Authentication_suite" title="Assignment.AutomationTask.registration" class="method navigator-link" hash-for-method="validRegistration">validRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Authentication_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Authentication_suite" class="hide-methods passed suite-Authentication_suite"> (hide)</a> <!-- hide-methods passed suite-Authentication_suite -->
+                      <a href="#" panel-name="suite-Authentication_suite" class="show-methods passed suite-Authentication_suite"> (show)</a> <!-- show-methods passed suite-Authentication_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Authentication_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Assignment.AutomationTask.registration" class="method navigator-link" hash-for-method="invalidRegistration(Siam, testads@gmail.com, 123, ×
-Error: Password should be at least 6 characters)">invalidRegistration(Siam, testads@gmail.com, 123, ×
-Error: Password should be at least 6 characters)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Assignment.AutomationTask.registration" class="method navigator-link" hash-for-method="invalidRegistration(Siam, testads, 879654, ×
+                        <a href="#" panel-name="suite-Authentication_suite" title="Assignment.AutomationTask.registration" class="method navigator-link" hash-for-method="invalidRegistration(Siam, testads, 879654, ×
 Error: The email address is badly formatted.)">invalidRegistration(Siam, testads, 879654, ×
 Error: The email address is badly formatted.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Assignment.AutomationTask.registration" class="method navigator-link" hash-for-method="invalidRegistration(Siam, , 879654, ×
+                        <a href="#" panel-name="suite-Authentication_suite" title="Assignment.AutomationTask.registration" class="method navigator-link" hash-for-method="invalidRegistration(Siam, , 879654, ×
 Error: The email address is badly formatted.)">invalidRegistration(Siam, , 879654, ×
 Error: The email address is badly formatted.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Assignment.AutomationTask.registration" class="method navigator-link" hash-for-method="invalidRegistration(Siam, testads@gmail.com, , ×
+                        <a href="#" panel-name="suite-Authentication_suite" title="Assignment.AutomationTask.registration" class="method navigator-link" hash-for-method="invalidRegistration(Siam, testads@gmail.com, , ×
 Error: The password must be 6 characters long or more.)">invalidRegistration(Siam, testads@gmail.com, , ×
 Error: The password must be 6 characters long or more.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Authentication_suite" title="Assignment.AutomationTask.registration" class="method navigator-link" hash-for-method="invalidRegistration(Siam, testads@gmail.com, 123, ×
+Error: Password should be at least 6 characters)">invalidRegistration(Siam, testads@gmail.com, 123, ×
+Error: Password should be at least 6 characters)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Authentication_suite" title="Assignment.AutomationTask.login" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Authentication_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -140,26 +159,35 @@ Error: The password must be 6 characters long or more.)</a> <!-- method navigato
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Authentication_suite" class="panel Authentication_suite">
+          <div class="suite-Authentication_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">Assignment.AutomationTask.registration</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidRegistration(Siam, testads@gmail.com, 123, ×
-Error: Password should be at least 6 characters)">
-                  </a> <!-- invalidRegistration(Siam, testads@gmail.com, 123, ×
-Error: Password should be at least 6 characters) -->
-                  <span class="method-name">invalidRegistration</span>
-                  <span class="parameters">(Siam,testads@gmail.com,123,×
-Error: Password should be at least 6 characters)</span>
+                  <a name="validRegistration">
+                  </a> <!-- validRegistration -->
+                  <span class="method-name">validRegistration</span>
+                  <div class="stack-trace">java.lang.AssertionError: URL didn&apos;t match after signup expected [https://letcode.in/] but found [https://letcode.in/signup]
+	at Assignment.AutomationTask.registration.validRegistration(registration.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
                   <em>
-(Test signup with sample invalid registration data)                  </em>
+(Test signup with sample valid registration data)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Authentication_suite-class-failed -->
+          <div class="suite-Authentication_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Assignment.AutomationTask.registration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="invalidRegistration(Siam, testads, 879654, ×
@@ -199,113 +227,151 @@ Error: The password must be 6 characters long or more.)</span>
 (Test signup with sample invalid registration data)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidRegistration(Siam, testads@gmail.com, 123, ×
+Error: Password should be at least 6 characters)">
+                  </a> <!-- invalidRegistration(Siam, testads@gmail.com, 123, ×
+Error: Password should be at least 6 characters) -->
+                  <span class="method-name">invalidRegistration</span>
+                  <span class="parameters">(Siam,testads@gmail.com,123,×
+Error: Password should be at least 6 characters)</span>
+                  <em>
+(Test signup with sample invalid registration data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Authentication_suite-class-passed -->
+          <div class="suite-Authentication_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Assignment.AutomationTask.login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
+                  <em>
+(Login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Authentication_suite-class-passed -->
+        </div> <!-- panel Authentication_suite -->
+        <div panel-name="test-xml-Authentication_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\alhas\AppData\Local\Temp\testng-eclipse--2089318890\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\alhas\eclipse-workspace\AutomationTask\Authentication.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Authentication suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Assignment.TestUtils.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Registration Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Assignment.AutomationTask.registration&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;invalidRegistration&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- Assignment.AutomationTask.registration --&gt;
+      &lt;class name=&quot;Assignment.AutomationTask.registration&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Registration Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Assignment.AutomationTask.login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+&lt;/suite&gt; &lt;!-- Authentication suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Authentication_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Authentication suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Registration Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Authentication_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Authentication suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Authentication_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Authentication suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Authentication_suite');
+function tableData_Authentication_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'invalidRegistration')
+data.setCell(0, 1, 'validRegistration')
 data.setCell(0, 2, 'Assignment.AutomationTask.registration')
-data.setCell(0, 3, 2296);
+data.setCell(0, 3, 2288);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'invalidRegistration')
 data.setCell(1, 2, 'Assignment.AutomationTask.registration')
-data.setCell(1, 3, 2268);
+data.setCell(1, 3, 2273);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'invalidRegistration')
 data.setCell(2, 2, 'Assignment.AutomationTask.registration')
-data.setCell(2, 3, 2261);
+data.setCell(2, 3, 2268);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'invalidRegistration')
 data.setCell(3, 2, 'Assignment.AutomationTask.registration')
-data.setCell(3, 3, 2260);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(3, 3, 2265);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'invalidRegistration')
+data.setCell(4, 2, 'Assignment.AutomationTask.registration')
+data.setCell(4, 3, 2242);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testValidLogin')
+data.setCell(5, 2, 'Assignment.AutomationTask.login')
+data.setCell(5, 3, 2160);
+window.suiteTableData['Authentication_suite']= { tableData: data, tableDiv: 'times-div-Authentication_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-Authentication_suite">
+              </div> <!-- times-div-Authentication_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Authentication_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Authentication suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Authentication_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">Assignment.AutomationTask.registration</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validRegistration</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Authentication_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -318,43 +384,72 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">1581 ms</span>
+                <span class="method-start">1156 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidRegistration(Siam, , 879654, ×
 Error: The email address is badly formatted.)</span>
-                <span class="method-start">4010 ms</span>
+                <span class="method-start">3382 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">6273 ms</span>
+                <span class="method-start">5653 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidRegistration(Siam, testads, 879654, ×
 Error: The email address is badly formatted.)</span>
-                <span class="method-start">7103 ms</span>
+                <span class="method-start">6435 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">9365 ms</span>
+                <span class="method-start">8702 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidRegistration(Siam, testads@gmail.com, , ×
 Error: The password must be 6 characters long or more.)</span>
-                <span class="method-start">10064 ms</span>
+                <span class="method-start">9451 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">12333 ms</span>
+                <span class="method-start">11726 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidRegistration(Siam, testads@gmail.com, 123, ×
 Error: Password should be at least 6 characters)</span>
-                <span class="method-start">13721 ms</span>
+                <span class="method-start">12629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">14874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validRegistration</span>
+                <span class="method-start">15870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">16019 ms</span>
+                <span class="method-start">18161 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Assignment.AutomationTask.login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">config</span>
+                <span class="method-start">18507 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">19154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">21393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">23554 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

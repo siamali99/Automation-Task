@@ -2,10 +2,10 @@ package Assignment.AutomationTask;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import Assignment.AutomationTask.pageLocators.loginPage;
+import Assignment.TestUtils.configDriver;
 
 public class login extends configDriver{
 	loginPage login;
